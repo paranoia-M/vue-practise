@@ -1,0 +1,28 @@
+<template>
+  <div class="header">
+    <div class="header-return">
+      <span></span>
+      <span class="iconfont">&#xe658;</span>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style scoped>
+.header {
+  height: 0.72rem;
+  width: 0.72rem;
+  position: absolute;
+  display: block;
+  left: 0.1rem;
+  right: 0.1rem;
+  z-index: 999;
+  font-size: 2rem;
+  background: none;
+}
+.header-return {
+}
+</style>
